@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +11,19 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.44",
     "@types/react-dom": "^17.0.15",
+    "@types/react-redux": "^7.1.24",
+    "@ui5/webcomponents": "^1.2.4",
+    "@ui5/webcomponents-base": "^1.2.4",
+    "@ui5/webcomponents-fiori": "^1.2.4",
+    "@ui5/webcomponents-icons": "^1.2.4",
+    "@ui5/webcomponents-react": "^0.22.6",
+    "@ui5/webcomponents-react-base": "^0.22.6",
+    "@zxing/library": "^0.19.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-redux": "^7.2.8",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +50,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.72.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2"
   }
 }

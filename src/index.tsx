@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import userApp from './store/users/users';
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+import UserDetail from './components/UserDetail';
+
+const store = createStore(userApp);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <HashRouter>
+    <Provider store={store}>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/user/:id" element={<UserDetail />} />
+    </Routes>
+    </Provider>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

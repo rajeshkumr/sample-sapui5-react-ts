@@ -1,0 +1,29 @@
+.main-content {
+    height: 500px;
+}
+
+.main-content .placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.main-content .placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.main-content .placeholder .icon-holder {
+    width: 10rem;
+    height: 10rem;
+    color: #999;
+}
+
+.main-content .placeholder .text-holder {
+    font-size: 1.2rem;
+    margin: 1rem;
+}

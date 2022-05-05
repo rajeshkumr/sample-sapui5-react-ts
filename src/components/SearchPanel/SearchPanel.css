@@ -1,0 +1,7 @@
+.search-panel {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+}
